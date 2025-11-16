@@ -1,0 +1,17 @@
+html::before {
+    content: "This site is blocked";
+    color: white;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+html {
+    background-color: black;
+    display: flex;
+}
+body {
+    display: none;
+}

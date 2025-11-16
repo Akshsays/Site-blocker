@@ -1,0 +1,23 @@
+{
+    "name": "Site Blocker",
+    "description": "Just a small project",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "action":
+    {
+        "default_popup":"struct/hello.html",
+        "default_icon": "images/block.png"
+    },
+    "content_scripts": 
+    [
+        {
+            "matches": [
+                "https://www.youtube.com/*",
+                "https://www.instagram.com/*"
+            ],
+            "css": [
+                "css/style.css"
+            ]
+        }
+    ]
+}
