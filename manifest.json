@@ -13,7 +13,9 @@
         {
             "matches": [
                 "https://www.youtube.com/*",
-                "https://www.instagram.com/*"
+                "https://www.instagram.com/*",
+                "https://discord.com/*",
+                "https://www.reddit.com/*"
             ],
             "css": [
                 "css/style.css"
